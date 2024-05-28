@@ -1,0 +1,101 @@
+/* styles.css */
+
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h1, h2 {
+    color: #4a90e2;
+}
+
+h1 {
+    text-align: center;
+    font-size: 2.5em;
+    margin-bottom: 20px;
+}
+
+h2 {
+    font-size: 2em;
+    border-bottom: 2px solid #4a90e2;
+    padding-bottom: 10px;
+    margin-top: 40px;
+}
+
+.profile p {
+    font-size: 1.2em;
+    text-align: center;
+    line-height: 1.6;
+}
+
+.personal-info, .expertise, .skills, .experience, .certifications, .projects, .education, .hobbies {
+    margin-top: 30px;
+}
+
+.personal-info p, .certifications p, .education p {
+    font-size: 1.1em;
+    line-height: 1.6;
+}
+
+.personal-info a {
+    color: #4a90e2;
+    text-decoration: none;
+}
+
+.personal-info a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    background: #e9eff6;
+    margin: 10px 0;
+    padding: 10px;
+    border-radius: 4px;
+}
+
+.job, .certification {
+    margin-top: 20px;
+    padding: 15px;
+    border-left: 4px solid #4a90e2;
+    background: #f9f9f9;
+}
+
+.job h3, .certification h3 {
+    font-size: 1.5em;
+    margin-bottom: 10px;
+}
+
+.job p, .certification p {
+    font-size: 1.1em;
+    color: #666;
+}
+
+.job ul, .certification ul {
+    margin-top: 10px;
+}
+
+.job ul li, .certification ul li {
+    background: none;
+    margin: 5px 0;
+    padding: 0;
+    border-radius: 0;
+    list-style-type: disc;
+    list-style-position: inside;
+}
